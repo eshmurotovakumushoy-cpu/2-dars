@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 300px;
+    height: 300px;
+background-color: rgb(41, 4, 4);
+transition: background 0.4s linear;
+background-position: bottom right;
+animation-name: hello;
+}
+.box-img{
+background-image: url(https://avatars.mds.yandex.net/get-vthumb/401621/0302ee76f1407a545cdb4ef750a7bd95/800x450);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+    animation-name: hello;
+    width: 100px;
+    height: 100px;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count:3 ;
+}
+@keyframes hello{
+   0%{
+   
+   }
+   25%{
+    transform: translate(200px) ;
+    background-image: url(https://sbenny.com/media/k2/items/cache/296cd9de158e249f3870555c2eeb013a_L.jpg);
+   }
+   50%{
+    transform: translateX(200px) translateY(200px);
+    background-image: url(https://upload.wikimedia.org/wikipedia/uz/5/5f/TomandJerryTitleCardc.jpg);
+   }
+   75%{
+     transform:  translateX(0) translateY(200px);
+     background-image: url(https://kinochi.net/uploads/450x450/729da9491baa4b0c5e20cf85ba715da0.jpg);
+
+   }
+}

@@ -1,0 +1,53 @@
+h1 {
+  color: #003366;
+}
+
+h2 {
+  color: #004080;
+}
+
+h3 {
+  color: #006699;
+}
+
+p {
+  color: #000000;
+}
+
+ul {
+  color: #000000;
+}
+
+| table {
+  background-color: #cfb9b9;
+  color: #000000;
+}
+
+th {
+  color: #000000;
+}
+
+td {
+  color: #000000;
+}
+
+form {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+input {
+  color: #000000;
+}
+
+select {
+  color: #000000;
+}
+
+textarea {
+  color: #000000;
+}
+
+button {
+  color: #000000;
+}

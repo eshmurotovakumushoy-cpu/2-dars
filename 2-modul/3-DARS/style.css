@@ -1,0 +1,33 @@
+h1 {
+    background-color: green;
+}
+
+h1 {
+    background-color: aqua;
+}
+
+.hello {
+    background-color: rgb(143, 143, 51);
+}
+
+p {
+    background-color: pink;
+}
+
+.ppp {
+    background-color: rgb(91, 206, 206);
+
+}
+
+div {
+    background-image: url(https://suret.pics/uploads/posts/2023-09/1695369141_1-1.jpg);
+    width: 350px;
+    height: 100%;
+    ;
+}
+
+.boss {
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe-GZZ1XgyEzV1b0Rs7NSMBBO7-fPP3aR_cw&s");
+    width: 300px;
+    height: 500px;
+}

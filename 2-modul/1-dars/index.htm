@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Exam System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1 class="title">Online Exam System</h1>
+    <p class="subtitle">Please review the exam information and submit your answers.</p>
+
+    <h2>Student Information</h2>
+
+    <div class="student">
+        <img src="./style.css" alt="">
+        
+            <p><b>Name:</b> Eshmurodova Kumushoy</p>
+            <p><b>Subject:</b> HTML Basics</p>
+        </div>
+    </div>
+
+    <h2>Exam Schedule</h2>
+
+    <table>
+        <tr>
+            <th>Section</th>
+            <th>Questions</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Multiple Choice</td>
+            <td>10</td>
+            <td>20 min</td>
+        </tr>
+        <tr>
+            <td>True / False</td>
+            <td>5</td>
+            <td>10 min</td>
+        </tr>
+        <tr>
+            <td>Written</td>
+            <td>2</td>
+            <td>30 min</td>
+        </tr>
+    </table>
+
+    <h2>Answer Form</h2>
+
+    <form>
+        <p>1. HTML stands for?</p>
+        <label><input type="radio" name="q1"> Hyper Text Markup Language</label><br>
+        <label><input type="radio" name="q1"> Cascading Style Sheets</label>
+
+        <p>2. Choose HTML tags you know:</p>
+        <label><input type="checkbox"> &lt;p&gt;</label><br>
+        <label><input type="checkbox"> &lt;table&gt;</label><br>
+        <label><input type="checkbox"> &lt;img&gt;</label>
+
+        <p>3. Your level:</p>
+        <select>
+            <option>Beginner</option>
+            <option>Intermediate</option>
+            <option>Advanced</option>
+        </select>
+
+        <p>4. Short Answer:</p>
+        <textarea></textarea>
+
+        <br><br>
+        <button type="submit">Submit Exam</button>
+    </form>
+
+</div>
+
+</body>
+</html>

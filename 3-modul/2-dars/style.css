@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f8f8f8;
+}
+
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+  center
+   url(./rasmlar/scandinavian-interior-mockup-wall-decal-background\ 1\ \(1\).png) center/cover;
+  color: rgb(149, 46, 46);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 60px;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero-content {
+  text-align:right;
+  margin-top: 120px;
+}
+
+.hero-content h5 {
+  letter-spacing: 2px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin: 15px 0;
+}
+
+.btn {
+  padding: 12px 25px;
+  border: none;
+  background: #1abc9c;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.social i {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+
+.info {
+  display: flex;
+  padding: 80px;
+  background: white;
+}
+
+.info-images img {
+  width: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h2 {
+  margin-bottom: 15px;
+}
+
+.small {
+  margin-top: 15px;
+}
+
+
+.places {
+  padding: 80px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 200px;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  width: 250;
+}
+
+.card h4 {
+  margin-top: 10px;
+  width: 200px;
+}
+.peach{
+     padding: 80px;
+  text-align: center;
+}
+body {
+  background: #f6f6f6;
+}
+
+
+.explore {
+  display: flex;
+  padding: 80px;
+  gap: 50px;
+}
+
+
+.left-box {
+  display: flex;
+  justify-items: center;
+  width: 100%;
+  background: #4f8f8b;
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+
+}
+
+.left-box h2 {
+  margin-bottom: 20px;
+}
+
+.left-box p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.left-box button {
+  padding: 12px 30px;
+  border: none;
+  background: white;
+  color: #4f8f8b;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+align-self: baseline;
+}
+.right-box {
+  width: 200%;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 28px;
+  color: #222;
+}
+
+
+.cards {
+  display: flex;
+  gap: 25px;
+}
+
+.card {
+  position: relative;
+  width: 200px;
+  height: 260px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.card-text {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background: rgba(255,255,255,0.8);
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+body {
+  background: #f8f8f8;
+  color: #222;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background: #fff;
+}
+
+.hero-text {
+  width: 45%;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.hero-text button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  background: #222;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero-img img {
+  width: 350px;
+  border-radius: 20px;
+}
+
+
+.browse {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+.works {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.step span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #222;
+  color: #fff;
+  border-radius: 50%;
+  line-height: 40px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.title {
+    color: rgb(198, 198, 24);
+    background-color: antiquewhite;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.hello{
+    color: rgb(32, 174, 174);
+    background-color: azure;
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.red{
+      color: rgb(174, 32, 150);
+    background-color: rgb(75, 9, 9);
+  font-family: "Playwrite CU Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.blu{
+     color: rgb(63, 174, 32);
+    background-color: rgb(20, 222, 222);
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.blac{
+       color: rgb(32, 172, 174);
+    background-color: rgb(173, 140, 19);
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

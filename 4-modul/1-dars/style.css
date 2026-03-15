@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.contener{
+width:1200px ;
+margin: 0 auto;
+}
+.card-img{
+background-color: rgb(246, 205, 212);
+width: 250px;
+}
+.mm{
+    color: blueviolet;
+}
+.loiha{
+  box-shadow: blueviolet 2px 2px 10px;  
+  padding: 20px;
+  margin: 20px;
+  width: 600px;
+}
+.travel{
+    padding: 10px;
+}
+.input{
+    appearance: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.input::after{
+content:  " ";
+background-image: url("https://foni.papik.pro/uploads/posts/2024-09/foni-papik-pro-7tcj-p-kartinki-simvol-galochka-na-prozrachnom-fo-9.png");
+width: 20px;
+height: 20px;
+display: none;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.input:checked::after{
+display: inline-block;
+}

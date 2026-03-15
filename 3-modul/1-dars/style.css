@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+background-color: rgb(243, 43, 43);
+color:transparent
+}
+.title:hover{
+    background-color: black;
+    padding: 50px;
+    color: pink;
+    text-align: center;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5_JmKxrlP3qsVI7FZjwgjbVUqyk0Ptg_lDQ&s);
+    margin: 0 auto;
+    margin-top: 30px;
+    transition: all 2s linear;
+}
+.box:hover{
+    background-color: rgb(36, 3, 3);
+    border-radius: 1000px;
+    background-size: cover;
+background-image: url(https://floristum.ru/uploads/products/632x632/168/p168_1572526289_46927.jpg);
+}
+.border{
+     width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-image: url(https://geografiya.uz/uploads/posts/2015-07/thumbs/1437189608_qozogiston.jpg);
+    margin: 0 auto;
+    margin-top: 30px;
+    transition: all 2s linear;
+}
+.border:hover{
+ background-color: rgb(36, 3, 3);
+    border-radius: 1000px;
+    background-size: cover;
+background-image: url(https://png.klev.club/uploads/posts/2024-04/png-klev-club-iwal-p-uzb-flag-png-31.png)
+}

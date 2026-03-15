@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+display: flex;
+justify-content: center;
+list-style-type: none;
+gap: 20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+
+}
+.title{
+    width: 200px;
+}

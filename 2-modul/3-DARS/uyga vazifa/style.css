@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url("background.jpg") no-repeat center/cover;
+    color: white;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.55);
+    width: 100vh;
+    padding: 30px;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: rgba(20, 20, 40, 0.85);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 350px;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: orange;
+    color: black;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: center;
+}
+
+.light {
+    background: #f4f4f4;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input, select {
+    padding: 6px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+}

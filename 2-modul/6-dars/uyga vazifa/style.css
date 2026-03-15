@@ -1,0 +1,35 @@
+*{margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.blu{
+ display: inline-block;
+    width: 315px;
+    margin: 0 auto;
+    padding: 15px;
+    border: radius 15px;
+
+}
+.red{
+    display: inline-block;
+    width: 315px;
+    margin: 0 auto;
+    padding: 15px;
+    border: radius 15px;
+    
+}
+.grin{
+     display: inline-block;
+    width: 315px;
+    margin: 0 auto;
+    padding: 15px;
+    border: radius 15px;
+    
+}
+.blac{
+     display: inline-block;
+    width: 315px;
+    margin: 0 auto;
+    padding: 15px;
+    border: radius 15px;
+}

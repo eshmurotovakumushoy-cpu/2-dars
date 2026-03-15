@@ -1,0 +1,97 @@
+*{margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.ovqatlar{
+     display: inline-block;
+    margin: 0 aiuto;
+    background-color: antiquewhite;
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    border: radius 15px;
+}
+.pris{
+    display: inline-block;
+    margin:  0 auto;
+ color: black;
+ width: 30px;
+}
+.Manti{
+    display: inline-block;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    width: 400px;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.red{
+    display: inline-block;
+    margin: 0 auto;
+    color: black;
+    width: 30px;
+}
+.Tandir{
+    display: inline-block;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    width: 400px;
+    margin: 0px auto;
+    padding: 15px;
+    border-radius:15px;
+}
+.blac{
+     display: inline-block;
+    margin: 0 auto;
+    color: black;
+    width: 50px;
+}
+.pink{
+      display: inline-block;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    width: 300px;
+    margin: 0px;
+    padding: 15px;
+    border: radius 15px;
+
+    
+}
+.pink{
+       display: inline-block;
+    margin: 0 auto;
+    color: black;
+    width: 343px;
+}
+     
+  .blu{
+         display: inline-block;
+    margin: 0px;
+    background-color: antiquewhite;
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    border: radius 15px;
+  }
+  .blu{
+       display: inline-block;
+    margin: 0 auto;
+    color: black;
+    width: 343px;
+}
+.grin{      display: inline-block;
+    margin: 0px;
+    background-color: antiquewhite;
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    border: radius 15px;
+  }
+  *grin{
+         display: inline-block;
+    margin: 0 auto;
+    color: black;
+    width: 343px;
+  }
+  
