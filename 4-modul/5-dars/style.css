@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contener{
+    width: 1200px;
+    margin: 0 auto;
+}
+.service-card{
+    background-color: red;
+    color: white;
+    padding: 20px 60px;
+}
+.service-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+.service-card:first-child{
+    grid-column: 1/4;
+    grid-row: 1/3;
+}

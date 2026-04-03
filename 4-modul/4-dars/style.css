@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* From Uiverse.io by ilkhoeri */ 
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.inner {
+  --w: 100px;
+  --h: 150px;
+  --translateZ: calc((var(--w) + var(--h)) + 0px);
+  --rotateX: -15deg;
+  --perspective: 1000px;
+  position: absolute;
+  width: var(--w);
+  height: var(--h);
+  top: 25%;
+  left: calc(50% - (var(--w) / 2) - 2.5px);
+  z-index: 2;
+  transform-style: preserve-3d;
+  transform: perspective(var(--perspective));
+  animation: rotating 20s linear infinite; /* */
+}
+@keyframes rotating {
+  from {
+    transform: perspective(var(--perspective)) rotateX(var(--rotateX))
+      rotateY(0);
+  }
+  to {
+    transform: perspective(var(--perspective)) rotateX(var(--rotateX))
+      rotateY(1turn);
+  }
+}
+
+.card {
+  position: absolute;
+  border: 2px solid rgba(var(--color-card));
+  border-radius: 12px;
+  overflow: hidden;
+  inset: 0;
+  transform: rotateY(calc((360deg / var(--quantity)) * var(--index)))
+    translateZ(var(--translateZ));
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7oWxn8Sa5CqKUUfAqKBs7LLoLQ0d_rf2MgA&s);  
+background-repeat: no-repeat;
+background-position: center;
+}
+.card:nth-child(2) .img{
+    background-image: url(https://i.ytimg.com/vi/BmE5KSP_GbM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAUsf5dnKaC5SYkcoOZSzBhmzDcuw);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card:nth-child(3) .img{
+    background-image: url(https://kenuz.uz/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkxtnixyb%2Fimage%2Fupload%2Fv1739291484%2FMovie%2Fsbbwfwc5qx0uyzpnutok.jpg&w=640&q=75);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card:nth-child(4) .img{
+    background-image: url(https://aniq.uz/photos/news/bpqzqk8ZFOI307U.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card:nth-child(5) .img{
+    background-image: url(https://zamin.uz/uploads/posts/2025-05/b2e4a9502a_maxresdefault.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card:nth-child(6) .img{
+    background-image: url(https://kinolar.net/uploads/posts/2025-05/thumbs/1748664808_3-bahodir.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card:nth-child(7) .img{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwKV0zUUDea9J_kQEm8MJgJrLprLw_vX0_Yg&s);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

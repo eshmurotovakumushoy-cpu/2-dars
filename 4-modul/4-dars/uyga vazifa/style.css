@@ -1,0 +1,219 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+
+.hero {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./Rectangle\ 10@2x.png'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero-content {
+    margin-top: 100px;
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin: 15px 0;
+    font-style: italic;
+}
+
+.hero-btns button {
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #5D2E17;
+    color: white;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 1px solid white !important;
+    color: white;
+}
+
+
+.products {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 30px;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-repeat: no-repeat;
+    background: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.product-img {
+    background-repeat: no-repeat;
+    height: 150px;
+    background-color: #444;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.product-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-weight: bold;
+    width: 100%;
+}
+
+.add-btn {
+    background: #7a4d3a;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.discount-banner {
+    background: #b5c7d3;
+    margin: 50px 10%;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.explore {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.categories {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 0.9rem;
+    color: #666;
+    cursor: pointer;
+}
+
+.categories span.active {
+    color: #5D2E17;
+    border-bottom: 2px solid #5D2E17;
+    font-weight: bold;
+}
+
+.explore-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.explore-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.about-us {
+    background: url('./Rectangle\ 45.png') no-repeat center center/cover;
+    padding: 80px 10%;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    color: white;
+}
+
+
+.about-us::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.about-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.btn-read {
+    background-color: #5D2E17;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.contener{
+    max-width: 12000px;
+    width: 100%;
+    padding: 20px;
+}

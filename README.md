@@ -1,6 +1,1 @@
-# 2-dars
-# 2-dars
-# 4-modul
-# 4-modul
-# 4-modul
-# 4-modul
+# partfo-liya
